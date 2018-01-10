@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<station xmlns="http://www.example.org/station_schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/station_schema station_schema.xsd">
+
+	<equipment id='1'>
+		<title>Equipment1</title>
+		<price>10.2</price>
+		<date>24-11-2017</date>
+	</equipment>
+	<equipment id='2'>
+		<title>Equipment2</title>
+		<price>9.5</price>
+		<date>24-11-2017</date>
+	</equipment>
+	<super-equipment>
+		<title>Equipment3</title>
+		<price>9.5</price>
+		<date>24-11-2017</date>
+		<accessories>
+			<accessory>One</accessory>
+		</accessories>
+	</super-equipment>
+</station>
